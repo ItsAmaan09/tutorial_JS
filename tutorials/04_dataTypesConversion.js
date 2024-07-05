@@ -38,3 +38,22 @@ let someNumber = 99;
 let someNumberString = String(someNumber);
 console.log(someNumberString);
 console.log(typeof someNumberString);
+
+
+
+
+// ============================ OPERATIONS =================================
+
+let fNumber = 1;
+let sNumber = 2;
+
+console.log("2"  + fNumber + sNumber); // 212
+console.log("2"  + (fNumber + sNumber)); // 23
+console.log( fNumber + sNumber  + "2"  ); // 32
+
+let isValid = true;
+console.log(isValid); // true
+console.log(+isValid); // 1
+console.log(++isValid); // 2
+console.log(isValid++); // 2
+console.log(+isValid++); // 3
