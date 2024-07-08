@@ -27,3 +27,30 @@ const myFunction = function nameOfFunction(params) { // function object
 console.log(typeof myFunction);
 console.log(typeof movies);
 console.log(typeof obj);
+
+// Memory management :-
+/* 
+    Stack:- (primitive)   heap:- (non-primitive)
+*/
+
+let myFirstName = "Mohammed";
+
+console.log(myFirstName);
+let myLastName = myFirstName;
+myLastName = "Amaan"
+console.log(myLastName);
+console.log(myFirstName);
+
+let user1 = {
+    name:'virat',
+    email:'v@yopmail'
+}
+
+
+console.log(user1);
+let user2 = user1;
+
+user2.name = 'kohli';
+
+console.log(user1);
+console.log(user2);
