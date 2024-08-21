@@ -118,3 +118,11 @@ userList.forEach((data)=>{
     console.log(data.name);
     
 });
+
+//  forEach not return the value. also not stored in variable
+const result = language.forEach((item)=>{
+    console.log(item);
+    return item;
+})
+
+console.log(result); 
